@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import HeaderContainer from './header/header_container';
+import Footer from './footer/footer';
 
 const App = ({children}) => (
   <div>
@@ -8,6 +9,7 @@ const App = ({children}) => (
     <section className="content">
       {children}
     </section>
+    <Footer />
   </div>
 );
 

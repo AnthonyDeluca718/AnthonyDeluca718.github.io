@@ -9,8 +9,6 @@ const configureStore = (preloadedState = {}) => {
     preloadedState
   );
 
-  console.log(store);
-
   return(
     store
   );
