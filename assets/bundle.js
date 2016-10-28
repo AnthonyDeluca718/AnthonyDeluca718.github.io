@@ -21508,9 +21508,9 @@
 	        _react2.default.createElement(_reactRouter.Route, { path: '/skills', component: _skills2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/contact', component: _contact2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/projects', component: _projects2.default }),
-	        _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _about2.default })
-	      ),
-	      _react2.default.createElement(_reactRouter.Route, { path: '*', component: _error2.default })
+	        _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _about2.default }),
+	        _react2.default.createElement(_reactRouter.Route, { path: '*', component: _error2.default })
+	      )
 	    )
 	  );
 	};
@@ -28019,9 +28019,41 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        'Yolo'
+	        'header',
+	        { className: 'header-content' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'profile-name' },
+	          'Anthony Deluca'
+	        ),
+	        _react2.default.createElement(
+	          'nav',
+	          { className: 'header-navigation-links group' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: '/skills', activeClassName: 'current', className: 'header-nav-link' },
+	            'Skills',
+	            _react2.default.createElement('nav', { className: 'hover-bar' })
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: '/projects', activeClassName: 'current', className: 'header-nav-link' },
+	            'Projects',
+	            _react2.default.createElement('nav', { className: 'hover-bar' })
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: '/about', activeClassName: 'current', className: 'header-nav-link' },
+	            'About Me',
+	            _react2.default.createElement('nav', { className: 'hover-bar' })
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: '/contact', activeClassName: 'current', className: 'header-nav-link' },
+	            'Contact',
+	            _react2.default.createElement('nav', { className: 'hover-bar' })
+	          )
+	        )
 	      );
 	    }
 	  }]);

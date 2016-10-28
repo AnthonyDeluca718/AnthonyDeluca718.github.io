@@ -1,3 +1,67 @@
+/* Reset */
+
+html, body, header, nav, h1, a, ul, li,
+strong, main, section, img, div, h2, p,
+form, fieldset, label, input, textarea,
+button, article, footer, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  box-sizing: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+.group::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Header */
+
 .skill-icon {
   font-size: 32px;
+}
+
+.header-content {
+  background: #F7F5F2;
+}
+
+.profile-name {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header-navigation-links {
+  display: inline-block;
+  text-align: center;
+}
+
+.header-nav-link {
+  width: 80px;
+  padding: 10px 5px;
+  margin: 0px 20px;
+}
+
+.hover-bar {
+
 }
