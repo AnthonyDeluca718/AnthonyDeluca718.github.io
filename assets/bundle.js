@@ -28027,7 +28027,7 @@
 	          'Anthony Deluca'
 	        ),
 	        _react2.default.createElement(
-	          'nav',
+	          'center',
 	          { className: 'header-navigation-links group' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
@@ -28399,7 +28399,7 @@
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://adeluca-kickstarter.herokuapp.com' },
-	              _react2.default.createElement('img', { src: 'image project-images/ClonedStarter.png', alt: '', className: 'cloned-starter-pic' })
+	              _react2.default.createElement('img', { src: 'images/ClonedStarter.png', alt: '', className: 'cloned-starter-pic' })
 	            )
 	          )
 	        ),

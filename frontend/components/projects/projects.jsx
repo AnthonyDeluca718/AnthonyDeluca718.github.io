@@ -21,7 +21,7 @@ class Projects extends React.Component {
           </div>
           <div className="image project-image">
             <a href="https://adeluca-kickstarter.herokuapp.com">
-              <img src="image project-images/ClonedStarter.png" alt="" className="cloned-starter-pic" />
+              <img src="images/ClonedStarter.png" alt="" className="cloned-starter-pic" />
             </a>
           </div>
         </section>
