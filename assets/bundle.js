@@ -28020,38 +28020,42 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'header',
-	        { className: 'header-content' },
+	        null,
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'profile-name' },
-	          'Anthony Deluca'
-	        ),
-	        _react2.default.createElement(
-	          'center',
-	          { className: 'header-navigation-links group' },
+	          { className: 'header-content group' },
 	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/skills', activeClassName: 'current', className: 'header-nav-link' },
-	            'Skills',
-	            _react2.default.createElement('nav', { className: 'hover-bar' })
+	            'div',
+	            { className: 'profile-name' },
+	            'Anthony Deluca'
 	          ),
 	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/projects', activeClassName: 'current', className: 'header-nav-link' },
-	            'Projects',
-	            _react2.default.createElement('nav', { className: 'hover-bar' })
-	          ),
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/about', activeClassName: 'current', className: 'header-nav-link' },
-	            'About Me',
-	            _react2.default.createElement('nav', { className: 'hover-bar' })
-	          ),
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/contact', activeClassName: 'current', className: 'header-nav-link' },
-	            'Contact',
-	            _react2.default.createElement('nav', { className: 'hover-bar' })
+	            'center',
+	            { className: 'header-navigation-links group' },
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/contact', activeClassName: 'current', className: 'header-nav-link group' },
+	              'Contact',
+	              _react2.default.createElement('nav', { className: 'hover-bar' })
+	            ),
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/about', activeClassName: 'current', className: 'header-nav-link group' },
+	              'About',
+	              _react2.default.createElement('nav', { className: 'hover-bar' })
+	            ),
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/projects', activeClassName: 'current', className: 'header-nav-link group' },
+	              'Projects',
+	              _react2.default.createElement('nav', { className: 'hover-bar' })
+	            ),
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/skills', activeClassName: 'current', className: 'header-nav-link group' },
+	              'Skills',
+	              _react2.default.createElement('nav', { className: 'hover-bar' })
+	            )
 	          )
 	        )
 	      );
@@ -28103,19 +28107,19 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'footer',
-	        { className: 'footer-content' },
+	        { className: 'footer-content group' },
 	        _react2.default.createElement(
 	          'ul',
-	          { className: 'copyright-list' },
+	          { className: 'footer-copyright' },
 	          _react2.default.createElement(
 	            'li',
-	            null,
-	            '\xA9 Anthony Deluca'
+	            { className: 'footer-element' },
+	            'Design: Anthony Deluca'
 	          ),
 	          _react2.default.createElement(
 	            'li',
-	            null,
-	            'Design: Anthony Deluca'
+	            { className: 'footer-element' },
+	            '\xA9 Anthony Deluca'
 	          )
 	        )
 	      );
@@ -28168,7 +28172,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        'Home'
+	        _react2.default.createElement('image', { src: '../' })
 	      );
 	    }
 	  }]);
@@ -28534,7 +28538,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'profile-section' },
+	        { className: 'about-content' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'profile-info' },
@@ -28546,13 +28550,7 @@
 	          _react2.default.createElement(
 	            'p',
 	            null,
-	            'I am a software engineer primarily working in Javascript, React, Ruby and Rails.',
-	            _react2.default.createElement('br', null),
-	            'I\'m interested in web development, algorithms, mathematics and game design. I studied mathematics at Penn State and web development at App Academy. ',
-	            _react2.default.createElement('br', null),
-	            'Check out some of my projects or shoot me an email.',
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement('br', null)
+	            'I am a software engineer primarily working in Javascript, React, Ruby and Rails. I\'m interested in web development, algorithms, mathematics and game design. I studied mathematics at Penn State and web development at App Academy. Check out some of my projects or shoot me an email.'
 	          ),
 	          _react2.default.createElement(
 	            'ul',

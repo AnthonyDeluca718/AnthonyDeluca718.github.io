@@ -9,9 +9,10 @@ class Footer extends React.Component {
 
   render() {
     return(
-      <footer className="footer-content">
-        <ul className="copyright-list">
-          <li>&copy; Anthony Deluca</li><li>Design: Anthony Deluca</li>
+      <footer className="footer-content group">
+        <ul className="footer-copyright" >
+          <li className="footer-element">Design: Anthony Deluca</li>
+          <li className="footer-element">&copy; Anthony Deluca</li>
         </ul>
       </footer>
     );
