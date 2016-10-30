@@ -28043,31 +28043,31 @@
 	            { className: 'header-navigation-links group' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/home', activeClassName: 'current', className: 'header-nav-link group' },
+	              { to: '/home', activeClassName: 'current', className: 'header-nav-link' },
 	              'Home',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/contact', activeClassName: 'current', className: 'header-nav-link group' },
+	              { to: '/contact', activeClassName: 'current', className: 'header-nav-link' },
 	              'Contact',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/about', activeClassName: 'current', className: 'header-nav-link group' },
+	              { to: '/about', activeClassName: 'current', className: 'header-nav-link' },
 	              'About',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/projects', activeClassName: 'current', className: 'header-nav-link group' },
+	              { to: '/projects', activeClassName: 'current', className: 'header-nav-link' },
 	              'Projects',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/skills', activeClassName: 'current', className: 'header-nav-link group' },
+	              { to: '/skills', activeClassName: 'current', className: 'header-nav-link' },
 	              'Skills',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            )
@@ -28124,18 +28124,19 @@
 	        'footer',
 	        { className: 'footer-content group' },
 	        _react2.default.createElement(
-	          'ul',
-	          { className: 'footer-copyright' },
-	          _react2.default.createElement(
-	            'li',
-	            { className: 'footer-element' },
-	            'Design: Anthony Deluca'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            { className: 'footer-element' },
-	            '\xA9 Anthony Deluca'
-	          )
+	          'text',
+	          { className: 'footer-left' },
+	          'Design: Anthony Deluca \xA9 Anthony Deluca'
+	        ),
+	        _react2.default.createElement(
+	          'text',
+	          { className: 'footer-right' },
+	          'More Yolo'
+	        ),
+	        _react2.default.createElement(
+	          'text',
+	          { className: 'footer-mid' },
+	          'Yolo'
 	        )
 	      );
 	    }

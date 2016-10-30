@@ -10,10 +10,18 @@ class Footer extends React.Component {
   render() {
     return(
       <footer className="footer-content group">
-        <ul className="footer-copyright" >
-          <li className="footer-element">Design: Anthony Deluca</li>
-          <li className="footer-element">&copy; Anthony Deluca</li>
-        </ul>
+        <text className="footer-left" >
+          Design: Anthony Deluca &copy; Anthony Deluca
+        </text>
+
+        <text className="footer-right" >
+          More Yolo
+        </text>
+
+        <text className="footer-mid" >
+          Yolo
+        </text>
+
       </footer>
     );
   }

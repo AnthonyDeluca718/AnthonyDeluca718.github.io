@@ -130,13 +130,29 @@ header .header-nav-link:hover .hover-bar {
   border-radius: 5px;
   width: 90%;
   margin: 30px auto;
-  text-align: center;
   font-size: 12px;
+  text-align: center;
 }
 
-.footer-element {
-  margin-left: 10px;
+.footer-left {
   float: left;
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+}
+
+.footer-mid {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 20%;
+}
+
+.footer-right {
+  float: right;
+  width: 40%;
+  text-align: right;
 }
 
 /* Home */
