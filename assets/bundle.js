@@ -28131,7 +28131,7 @@
 	        _react2.default.createElement(
 	          'text',
 	          { className: 'footer-right' },
-	          'More Yolo'
+	          '\u2206u = 0'
 	        ),
 	        _react2.default.createElement(
 	          'text',
@@ -28641,11 +28641,7 @@
 	  _createClass(Error, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        'Error'
-	      );
+	      return _react2.default.createElement('div', null);
 	    }
 	  }]);
 	

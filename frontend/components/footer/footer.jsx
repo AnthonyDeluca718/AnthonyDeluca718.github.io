@@ -13,9 +13,8 @@ class Footer extends React.Component {
         <text className="footer-left" >
           Design: Anthony Deluca &copy; Anthony Deluca
         </text>
-
         <text className="footer-right" >
-          More Yolo
+          &#8710;u = 0
         </text>
 
         <text className="footer-mid" >

@@ -150,6 +150,7 @@ header .header-nav-link:hover .hover-bar {
 }
 
 .footer-right {
+  display: inline-block;
   float: right;
   width: 40%;
   text-align: right;
