@@ -14,11 +14,24 @@ class Home extends React.Component {
         <img src="css/images/SettingSun.jpg" className="home-image">
         </img>
 
-        <div className="home-des1">
-          I am a software engineer primarily working in Javascript, React, Ruby and Rails.
-          I'm interested in web development, algorithms, mathematics and game design.
-          I studied mathematics at Penn State and web development at App Academy.
-          Check out some of my projects or shoot me an email.
+        <div className="home-des home-des1">
+          Software Engineer
+        </div>
+
+        <div className="home-des home-des2">
+          Primarily working in Javascript, React, Ruby and Rails
+        </div>
+
+        <div className="home-des home-des3">
+            Studied Web Development at App Academy and
+        </div >
+
+        <div className="home-des home-des4">
+            Mathematics at Penn State
+        </div >
+
+        <div className="home-des home-des5">
+          Check out my site or shoot me an email.
         </div>
 
       </div>

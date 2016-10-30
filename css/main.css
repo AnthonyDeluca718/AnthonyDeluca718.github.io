@@ -173,9 +173,41 @@ header .header-nav-link:hover .hover-bar {
   display: block;
 }
 
+.home-des {
+  text-decoration: underline;
+  font-size: 44px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Tangerine', cursive;
+}
+
 .home-des1 {
   position: absolute;
-  top: 200px;
+  top: 50px;
   left: 0;
-  width: 100%;
+}
+
+.home-des2 {
+  position: absolute;
+  top: 110px;
+  left: 0;
+}
+
+.home-des3 {
+  position: absolute;
+  top: 170px;
+  left: 0;
+}
+
+.home-des4 {
+  position: absolute;
+  top: 230px;
+  left: 0;
+}
+
+.home-des5 {
+  position: absolute;
+  top: 290px;
+  left: 0;
 }
