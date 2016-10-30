@@ -9,8 +9,8 @@ class Home extends React.Component {
 
   render() {
     return(
-      <div>
-        <image src="../" />
+      <div className="home-content">
+        Hello World
       </div>
     );
   }

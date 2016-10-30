@@ -28034,6 +28034,12 @@
 	            { className: 'header-navigation-links group' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
+	              { to: '/home', activeClassName: 'current', className: 'header-nav-link group' },
+	              'Home',
+	              _react2.default.createElement('nav', { className: 'hover-bar' })
+	            ),
+	            _react2.default.createElement(
+	              _reactRouter.Link,
 	              { to: '/contact', activeClassName: 'current', className: 'header-nav-link group' },
 	              'Contact',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
@@ -28171,8 +28177,8 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
-	        _react2.default.createElement('image', { src: '../' })
+	        { className: 'home-content' },
+	        'Hello World'
 	      );
 	    }
 	  }]);

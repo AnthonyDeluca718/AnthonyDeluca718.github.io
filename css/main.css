@@ -1,8 +1,7 @@
 @font-face {
   font-family: "blackjack";
-  src: url('/assets/blackjack.otf') format('opentype');
+  src: asset-url('blackjack.otf') format('opentype');
 }
-
 
 /* Reset */
 
@@ -52,14 +51,17 @@ body {
   border-radius: 5px;
   width: 90%;
   margin: 30px auto;
+  vertical-align: middle;
+  justify-content: center; /* align horizontal */
+  align-items: center;
 }
 
 .profile-name {
-  display: block;
   font-size: 44px;
   font-weight: bold;
   float: left;
-  font-family: blackjack;
+  font-family: 'Tangerine', cursive;
+  padding-top: 9px;
 }
 
 .header-navigation-links {
@@ -121,4 +123,16 @@ header .header-nav-link:hover .hover-bar {
 .footer-element {
   margin-left: 10px;
   float: left;
+}
+
+/* Home */
+
+.home-content {
+  background-image: url("../images/Wanderer.jpeg");
+  background-position: center top;
+  background-size: 100% auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
