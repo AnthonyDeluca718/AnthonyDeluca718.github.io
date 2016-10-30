@@ -28043,7 +28043,7 @@
 	            { className: 'header-navigation-links group' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/home', activeClassName: 'current', className: 'header-nav-link' },
+	              { to: '/', activeClassName: 'current', className: 'header-nav-link' },
 	              'Home',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
@@ -28188,7 +28188,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'home-content' },
-	        'Hello World'
+	        _react2.default.createElement('img', { src: 'images/SettingSun.jpg', className: 'home-image' })
 	      );
 	    }
 	  }]);

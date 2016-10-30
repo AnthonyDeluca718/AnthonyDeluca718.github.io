@@ -49,7 +49,7 @@ body {
   /*background: #F8F9FD; */
   padding: 0px 30px;
   border: 1px solid red;
-  border-radius: 5px;
+  border-radius: 6px;
   width: 90%;
   margin: 30px auto;
   vertical-align: middle;
@@ -127,7 +127,7 @@ header .header-nav-link:hover .hover-bar {
   background: #F7F5F2;
   padding: 10px 30px;
   border: 1px solid red;
-  border-radius: 5px;
+  border-radius: 6px;
   width: 90%;
   margin: 30px auto;
   font-size: 12px;
@@ -159,11 +159,12 @@ header .header-nav-link:hover .hover-bar {
 /* Home */
 
 .home-content {
-  background-image: url("../images/Wanderer.jpeg");
-  background-position: center top;
-  background-size: 100% auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.home-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
