@@ -46,6 +46,7 @@ body {
 
 .header-content {
   background: #F7F5F2;
+  /*background: #F8F9FD; */
   padding: 0px 30px;
   border: 1px solid red;
   border-radius: 5px;
@@ -62,6 +63,19 @@ body {
   float: left;
   font-family: 'Tangerine', cursive;
   padding-top: 9px;
+  /*color: #20B2AA;*/
+  /*color: #1E90FF;*/
+  /*color: 	#8A2BE2;*/
+  /*color: #FF1493;*/
+  /*color: 	#FF69B4;*/
+}
+
+.profile-anthony {
+  /*color: #6495ED;*/
+}
+
+.profile-deluca {
+  /*color: #6495ED;*/
 }
 
 .header-navigation-links {

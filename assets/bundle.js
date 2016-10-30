@@ -28027,7 +28027,16 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'profile-name' },
-	            'Anthony Deluca'
+	            _react2.default.createElement(
+	              'text',
+	              { className: 'profile-anthony' },
+	              'Anthony'
+	            ),
+	            _react2.default.createElement(
+	              'text',
+	              { className: 'profile-deluca' },
+	              ' Deluca'
+	            )
 	          ),
 	          _react2.default.createElement(
 	            'center',

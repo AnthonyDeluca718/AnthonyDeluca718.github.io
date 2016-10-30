@@ -14,7 +14,7 @@ class Header extends React.Component {
         <div className="header-content group">
 
           <div className="profile-name">
-            Anthony Deluca
+            <text className="profile-anthony">Anthony</text><text className="profile-deluca"> Deluca</text>
           </div>
 
           <center className="header-navigation-links group">
