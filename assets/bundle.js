@@ -28131,12 +28131,12 @@
 	        _react2.default.createElement(
 	          'text',
 	          { className: 'footer-right' },
-	          '\u2206u = 0'
+	          '\u222B\u0192(x,y)\u03C1(x) dx = C'
 	        ),
 	        _react2.default.createElement(
 	          'text',
 	          { className: 'footer-mid' },
-	          'Yolo'
+	          '\u2206u = \u0192'
 	        )
 	      );
 	    }

@@ -14,11 +14,11 @@ class Footer extends React.Component {
           Design: Anthony Deluca &copy; Anthony Deluca
         </text>
         <text className="footer-right" >
-          &#8710;u = 0
+          &#8747;&#402;(x,y)&#961;(x) dx = C
         </text>
 
         <text className="footer-mid" >
-          Yolo
+          &#8710;u = &#402;
         </text>
 
       </footer>
