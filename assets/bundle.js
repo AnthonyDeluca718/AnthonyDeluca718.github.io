@@ -28188,7 +28188,12 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'home-content' },
-	        _react2.default.createElement('img', { src: 'images/SettingSun.jpg', className: 'home-image' })
+	        _react2.default.createElement('img', { src: 'css/images/SettingSun.jpg', className: 'home-image' }),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'home-des1' },
+	          'I am a software engineer primarily working in Javascript, React, Ruby and Rails. I\'m interested in web development, algorithms, mathematics and game design. I studied mathematics at Penn State and web development at App Academy. Check out some of my projects or shoot me an email.'
+	        )
 	      );
 	    }
 	  }]);
@@ -28197,6 +28202,9 @@
 	}(_react2.default.Component);
 	
 	exports.default = Home;
+	
+	
+	_react2.default.createElement('img', { src: 'images/SettingSun.jpg', className: 'home-image' });
 
 /***/ },
 /* 255 */

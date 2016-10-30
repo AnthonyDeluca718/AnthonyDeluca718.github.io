@@ -37,6 +37,9 @@ body {
   font-family: sans-serif;
 }
 
+html, body {
+  height: 100%;
+}
 /* Header */
 
 .skill-icon {
@@ -161,10 +164,18 @@ header .header-nav-link:hover .hover-bar {
 .home-content {
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 .home-image {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.home-des1 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
 }
