@@ -252,6 +252,10 @@ header .header-nav-link:hover .hover-bar {
   margin: 0 auto;
 }
 
+.project-spotlight {
+  margin-bottom: 30px;
+}
+
 .project-image {
   display: block;
   width: 40%;
