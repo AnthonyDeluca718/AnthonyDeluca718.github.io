@@ -136,6 +136,22 @@ header .header-nav-link:hover .hover-bar {
   text-align: center;
 }
 
+.skills-explantion {
+
+}
+
+.skills-explanation p {
+  text-align: center;
+}
+
+.skills-explanation-title {
+  font-size: 44px;
+  display: block;
+  margin: 0 auto 30px auto;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* Resume */
 
 .resume-object {

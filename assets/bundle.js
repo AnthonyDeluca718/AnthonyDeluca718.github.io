@@ -28419,7 +28419,30 @@
 	            )
 	          )
 	        ),
-	        _react2.default.createElement('div', { className: 'skills-explanation' })
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'skills-explanation' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'skills-explanation-title' },
+	            'History'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'YOLO'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'More yolo'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'Most Yolo'
+	          )
+	        )
 	      );
 	    }
 	  }]);
