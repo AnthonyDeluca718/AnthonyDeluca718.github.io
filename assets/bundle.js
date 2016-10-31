@@ -28333,7 +28333,92 @@
 	          _react2.default.createElement('i', { className: 'devicon-mysql-plain' }),
 	          _react2.default.createElement('i', { className: 'devicon-apple-original' })
 	        ),
-	        _react2.default.createElement('div', { className: 'skills-list' }),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'skills-list group' },
+	          _react2.default.createElement(
+	            'ul',
+	            { className: 'skills-sub-list' },
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Javascript   '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Ruby    '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Rails   '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'C++    '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Matlab '
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'ul',
+	            { className: 'skills-sub-list' },
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'React   '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Redux    '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'HTML5    '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'CSS'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'JQuery'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'ul',
+	            { className: 'skills-sub-list' },
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Numerical Optimization    '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Stochstic Differential Equations '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'PDEs '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Latex  '
+	            )
+	          )
+	        ),
 	        _react2.default.createElement('div', { className: 'skills-explanation' })
 	      );
 	    }

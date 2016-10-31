@@ -30,7 +30,30 @@ class Skills extends React.Component {
           <i className="devicon-apple-original"></i>
         </div>
 
-        <div className="skills-list">
+        <div className="skills-list group">
+
+          <ul className="skills-sub-list">
+            <li>Javascript   </li>
+            <li>Ruby    </li>
+            <li>Rails   </li>
+            <li>C++    </li>
+            <li>Matlab </li>
+          </ul>
+
+          <ul className="skills-sub-list">
+            <li>React   </li>
+            <li>Redux    </li>
+            <li>HTML5    </li>
+            <li>CSS</li>
+            <li>JQuery</li>
+          </ul>
+
+          <ul className="skills-sub-list">
+            <li>Numerical Optimization    </li>
+            <li>Stochstic Differential Equations </li>
+            <li>PDEs </li>
+            <li>Latex  </li>
+          </ul>
 
         </div>
 

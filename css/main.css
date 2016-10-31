@@ -126,6 +126,16 @@ header .header-nav-link:hover .hover-bar {
   margin: 8px;
 }
 
+.skills-list {
+  margin-bottom: 30px;
+}
+
+.skills-sub-list {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
 /* Resume */
 
 .resume-object {
