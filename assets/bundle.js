@@ -28418,30 +28418,6 @@
 	              'Latex  '
 	            )
 	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'skills-explanation' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'skills-explanation-title' },
-	            'History'
-	          ),
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            'YOLO'
-	          ),
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            'More yolo'
-	          ),
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            'Most Yolo'
-	          )
 	        )
 	      );
 	    }
@@ -28451,6 +28427,26 @@
 	}(_react2.default.Component);
 	
 	exports.default = Skills;
+	
+	// 
+	// <div className="skills-explanation">
+	//   <div className="skills-explanation-title">
+	//     History
+	//   </div>
+	//
+	//   <p>
+	//     YOLO
+	//   </p>
+	//
+	//   <p>
+	//     More yolo
+	//   </p>
+	//
+	//   <p>
+	//     Most Yolo
+	//   </p>
+	//
+	// </div>
 
 /***/ },
 /* 256 */

@@ -57,29 +57,29 @@ class Skills extends React.Component {
 
         </div>
 
-
-        <div className="skills-explanation">
-          <div className="skills-explanation-title">
-            History
-          </div>
-
-          <p>
-            YOLO
-          </p>
-
-          <p>
-            More yolo
-          </p>
-
-          <p>
-            Most Yolo
-          </p>
-
-        </div>
-
       </div>
     );
   }
 }
 
 export default Skills;
+
+// 
+// <div className="skills-explanation">
+//   <div className="skills-explanation-title">
+//     History
+//   </div>
+//
+//   <p>
+//     YOLO
+//   </p>
+//
+//   <p>
+//     More yolo
+//   </p>
+//
+//   <p>
+//     Most Yolo
+//   </p>
+//
+// </div>
