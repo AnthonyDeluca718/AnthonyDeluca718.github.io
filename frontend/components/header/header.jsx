@@ -19,8 +19,8 @@ class Header extends React.Component {
 
           <center className="header-navigation-links group">
             <Link to="/" activeClassName="current" className="header-nav-link">Home<nav className="hover-bar"></nav></Link>
+            <Link to="/resume" activeClassName="current" className="header-nav-link">Resume<nav className="hover-bar"></nav></Link>
             <Link to="/contact" activeClassName="current" className="header-nav-link">Contact<nav className="hover-bar"></nav></Link>
-            <Link to="/about" activeClassName="current" className="header-nav-link">About<nav className="hover-bar"></nav></Link>
             <Link to="/projects" activeClassName="current" className="header-nav-link">Projects<nav className="hover-bar"></nav></Link>
             <Link to="/skills" activeClassName="current" className="header-nav-link">Skills<nav className="hover-bar"></nav></Link>
           </center>

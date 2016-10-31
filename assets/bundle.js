@@ -21490,6 +21490,10 @@
 	
 	var _error2 = _interopRequireDefault(_error);
 	
+	var _resume = __webpack_require__(283);
+	
+	var _resume2 = _interopRequireDefault(_resume);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var Root = function Root(_ref) {
@@ -21508,9 +21512,9 @@
 	        _react2.default.createElement(_reactRouter.Route, { path: '/skills', component: _skills2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/contact', component: _contact2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/projects', component: _projects2.default }),
-	        _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _about2.default }),
-	        _react2.default.createElement(_reactRouter.Route, { path: '*', component: _error2.default })
-	      )
+	        _react2.default.createElement(_reactRouter.Route, { path: '/resume', component: _resume2.default })
+	      ),
+	      _react2.default.createElement(_reactRouter.Route, { path: '*', component: _error2.default })
 	    )
 	  );
 	};
@@ -28049,14 +28053,14 @@
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/contact', activeClassName: 'current', className: 'header-nav-link' },
-	              'Contact',
+	              { to: '/resume', activeClassName: 'current', className: 'header-nav-link' },
+	              'Resume',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/about', activeClassName: 'current', className: 'header-nav-link' },
-	              'About',
+	              { to: '/contact', activeClassName: 'current', className: 'header-nav-link' },
+	              'Contact',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
 	            _react2.default.createElement(
@@ -28187,32 +28191,40 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'home-content' },
-	        _react2.default.createElement('img', { src: 'css/images/SettingSun.jpg', className: 'home-image' }),
+	        { className: 'home-content group' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'home-des home-des1' },
-	          'Software Engineer'
+	          { className: 'home-left' },
+	          _react2.default.createElement('img', { src: 'images/profile_picture.jpeg', alt: 'profile image', className: 'profile-pic' })
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'home-des home-des2' },
-	          'Primarily working in Javascript, React, Ruby and Rails'
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'home-des home-des3' },
-	          'Studied Web Development at App Academy and'
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'home-des home-des4' },
-	          'Mathematics at Penn State'
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'home-des home-des5' },
-	          'Check out my site or shoot me an email.'
+	          { className: 'home-right' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'home-des home-des1' },
+	            'Software Engineer'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'home-des home-des2' },
+	            'Primarily working in Javascript, React, Ruby and Rails'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'home-des home-des3' },
+	            'Studied Web Development at App Academy and'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'home-des home-des4' },
+	            'Mathematics at Penn State'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'home-des home-des5' },
+	            'Check out my site or shoot me an email'
+	          )
 	        )
 	      );
 	    }
@@ -28223,8 +28235,8 @@
 	
 	exports.default = Home;
 	
-	
-	_react2.default.createElement('img', { src: 'images/SettingSun.jpg', className: 'home-image' });
+	// <img src="css/images/SettingSun.jpg" className="home-image">
+	// </img>
 
 /***/ },
 /* 255 */
@@ -28620,8 +28632,7 @@
 	              )
 	            )
 	          )
-	        ),
-	        _react2.default.createElement('img', { src: 'images/profile_picture.jpeg', alt: 'profile image', className: 'profile-pic' })
+	        )
 	      );
 	    }
 	  }]);
@@ -28660,16 +28671,94 @@
 	var Error = function (_React$Component) {
 	  _inherits(Error, _React$Component);
 	
-	  function Error(props) {
+	  function Error() {
 	    _classCallCheck(this, Error);
 	
-	    return _possibleConstructorReturn(this, (Error.__proto__ || Object.getPrototypeOf(Error)).call(this, props));
+	    return _possibleConstructorReturn(this, (Error.__proto__ || Object.getPrototypeOf(Error)).apply(this, arguments));
 	  }
 	
 	  _createClass(Error, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement('div', null);
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'error' },
+	        _react2.default.createElement(
+	          'header',
+	          null,
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header-content group' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'profile-name' },
+	              _react2.default.createElement(
+	                'text',
+	                { className: 'profile-anthony' },
+	                'Anthony'
+	              ),
+	              _react2.default.createElement(
+	                'text',
+	                { className: 'profile-deluca' },
+	                ' Deluca'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'center',
+	              { className: 'header-navigation-links group' },
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/', activeClassName: 'current', className: 'header-nav-link' },
+	                'Home',
+	                _react2.default.createElement('nav', { className: 'hover-bar' })
+	              ),
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/resume', activeClassName: 'current', className: 'header-nav-link' },
+	                'Resume',
+	                _react2.default.createElement('nav', { className: 'hover-bar' })
+	              ),
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/contact', activeClassName: 'current', className: 'header-nav-link' },
+	                'Contact',
+	                _react2.default.createElement('nav', { className: 'hover-bar' })
+	              ),
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/projects', activeClassName: 'current', className: 'header-nav-link' },
+	                'Projects',
+	                _react2.default.createElement('nav', { className: 'hover-bar' })
+	              ),
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/skills', activeClassName: 'current', className: 'header-nav-link' },
+	                'Skills',
+	                _react2.default.createElement('nav', { className: 'hover-bar' })
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'error-content' },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            '404'
+	          ),
+	          _react2.default.createElement(
+	            'h2',
+	            { className: 'ohMy' },
+	            'OH MY GOODNESS'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'message' },
+	            'We apologize but something\'s gone wrong- an old link, a bad link, or some little glitch.'
+	          )
+	        )
+	      );
 	    }
 	  }]);
 	
@@ -30716,6 +30805,66 @@
 	  else this.add(className)
 	}
 
+
+/***/ },
+/* 283 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(197);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Resume = function (_React$Component) {
+	  _inherits(Resume, _React$Component);
+	
+	  function Resume(props) {
+	    _classCallCheck(this, Resume);
+	
+	    return _possibleConstructorReturn(this, (Resume.__proto__ || Object.getPrototypeOf(Resume)).call(this, props));
+	  }
+	
+	  _createClass(Resume, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'object',
+	          { data: './assets/resume.pdf', type: 'application/pdf', className: 'resume-object' },
+	          'Your browser does not support pdfs, ',
+	          _react2.default.createElement(
+	            'a',
+	            { href: './assets/resume.pdf' },
+	            'click here to download the file.'
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Resume;
+	}(_react2.default.Component);
+	
+	exports.default = Resume;
 
 /***/ }
 /******/ ]);

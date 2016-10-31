@@ -23,7 +23,6 @@ class About extends React.Component {
               <li> <a href="https://www.linkedin.com/in/a-deluca"><i className="fa fa-linkedin-square" id="about-icon2"aria-hidden="true"></i></a></li>
             </ul>
         </div>
-        <img src="images/profile_picture.jpeg" alt="profile image" className="profile-pic"/>
       </div>
     )
   }

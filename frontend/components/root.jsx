@@ -10,6 +10,7 @@ import Contact from './contact/contact';
 import Projects from './projects/projects';
 import About from './about/about';
 import Error from './error/error';
+import Resume from './resume/resume';
 
 const Root = ({store}) => {
   return (
@@ -20,9 +21,9 @@ const Root = ({store}) => {
           <Route path="/skills" component = {Skills} />
           <Route path="/contact" component = {Contact} />
           <Route path="/projects" component = {Projects} />
-          <Route path="/about" component = {About} />
-          <Route path="*" component={Error}/>
+          <Route path="/resume" component = {Resume} />
         </Route>
+        <Route path="*" component={Error}/>
       </Router>
     </Provider>
   );
