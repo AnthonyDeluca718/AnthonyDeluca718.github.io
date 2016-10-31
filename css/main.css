@@ -245,6 +245,31 @@ header .header-nav-link:hover .hover-bar {
   margin: 30px auto 0 auto;
 }
 
+/* Projects */
+
+.projects-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.project-image {
+  display: block;
+  width: 40%;
+}
+
+.project-show {
+  display: block;
+  width: 50%;
+}
+
+.projects-content .left {
+  float: left;
+}
+
+.projects-content .right {
+  float: right;
+}
+
 /* Home */
 
 .home-content {

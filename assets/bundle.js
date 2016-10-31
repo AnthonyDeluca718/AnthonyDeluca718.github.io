@@ -28410,6 +28410,11 @@
 	            _react2.default.createElement(
 	              'li',
 	              null,
+	              'Game Theory'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
 	              'PDEs '
 	            ),
 	            _react2.default.createElement(
@@ -28428,7 +28433,7 @@
 	
 	exports.default = Skills;
 	
-	// 
+	//
 	// <div className="skills-explanation">
 	//   <div className="skills-explanation-title">
 	//     History
@@ -28591,41 +28596,10 @@
 	        { className: 'projects-content' },
 	        _react2.default.createElement(
 	          'section',
-	          { className: 'project-spotlight' },
+	          { className: 'project-spotlight group' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'project-show' },
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://adeluca-kickstarter.herokuapp.com', className: 'project-link' },
-	              _react2.default.createElement(
-	                'h2',
-	                null,
-	                'ClonedStarter'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'A fullstack application inspired by AirBnB, built with Ruby on Rails on the backend and with React.js and Redux on the front end.  This app integrates the Google Maps API to allow users to search, filter, and display bookings by location.'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'image project-image' },
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://adeluca-kickstarter.herokuapp.com' },
-	              _react2.default.createElement('img', { src: 'images/ClonedStarter.png', alt: '', className: 'cloned-starter-pic' })
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'section',
-	          { className: 'project-spotlight' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'project-show' },
+	            { className: 'project-show right' },
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://anthonydeluca718.github.io/JS_Chess/', className: 'project-link' },
@@ -28663,7 +28637,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'image project-image' },
+	            { className: 'image project-image left' },
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://anthonydeluca718.github.io/JS_Chess/' },
@@ -28673,10 +28647,41 @@
 	        ),
 	        _react2.default.createElement(
 	          'section',
-	          { className: 'project-spotlight' },
+	          { className: 'project-spotlight group' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'project-show' },
+	            { className: 'project-show left' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://adeluca-kickstarter.herokuapp.com', className: 'project-link' },
+	              _react2.default.createElement(
+	                'h2',
+	                null,
+	                'ClonedStarter'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'A fullstack application inspired by AirBnB, built with Ruby on Rails on the backend and with React.js and Redux on the front end.  This app integrates the Google Maps API to allow users to search, filter, and display bookings by location.'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image project-image right' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://adeluca-kickstarter.herokuapp.com' },
+	              _react2.default.createElement('img', { src: 'images/ClonedStarter.png', alt: '', className: 'cloned-starter-pic' })
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-spotlight group' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project-show right' },
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://anthonydeluca718.github.io/MiniJQuery/', className: 'project-link' },
@@ -28694,7 +28699,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'image' },
+	            { className: 'image project-image left' },
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://anthonydeluca718.github.io/MiniJQuery/' },

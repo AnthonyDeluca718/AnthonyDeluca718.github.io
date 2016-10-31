@@ -51,6 +51,7 @@ class Skills extends React.Component {
           <ul className="skills-sub-list">
             <li>Numerical Optimization    </li>
             <li>Stochstic Differential Equations </li>
+            <li>Game Theory</li>
             <li>PDEs </li>
             <li>Latex  </li>
           </ul>
@@ -64,7 +65,7 @@ class Skills extends React.Component {
 
 export default Skills;
 
-// 
+//
 // <div className="skills-explanation">
 //   <div className="skills-explanation-title">
 //     History
