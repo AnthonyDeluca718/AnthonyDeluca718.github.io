@@ -18,9 +18,10 @@ class Contact extends React.Component {
           </p>
         </div>
 
-        <ul className="contact-actions">
-          <li><a href="mailto:mail@adeluca.io" className="mail-button button">Email</a></li>
-          <li><a href="assets/resume.pdf" className="resume-button button">Resume</a></li>
+        <ul className="home-icons">
+          <li> <a href="https://github.com/AnthonyDeluca718"><i className="devicon-github-plain colored"></i></a></li>
+          <li> <a href="https://github.com/AnthonyDeluca718"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:mail@adeluca.io" ><i className="fa fa-envelope" aria-hidden="true"></i></a></li>
         </ul>
 
       </section>

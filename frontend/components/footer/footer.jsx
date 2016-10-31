@@ -14,7 +14,7 @@ class Footer extends React.Component {
           Design: Anthony Deluca &copy; Anthony Deluca
         </text>
         <text className="footer-right" >
-          &#8747;&#402;(x,y)&#961;(x) dx = C
+          nash(x)= max min &#8747;&#402;(x,y)&#961;(x) dx
         </text>
 
         <text className="footer-mid" >

@@ -3,6 +3,10 @@
   src: asset-url('blackjack.otf') format('opentype');
 }
 
+.fa {
+  height: 10px;
+  width: auto;
+}
 /* Reset */
 
 html, body, header, nav, h1, a, ul, li,
@@ -234,7 +238,24 @@ header .header-nav-link:hover .hover-bar {
   border-radius: 6px;
   background: #F7F5F2;
   padding: 20px;
+  font-family: 'Rubik', 'sans-serif';
 }
+
+.profile-contacts-section {
+  float: left;
+}
+
+.home-icons {
+  display: block;
+  text-align: center;
+}
+
+.home-icons a {
+  margin-left: 20px;
+  font-size: 32px;
+  display: inline-block;
+}
+
 
 .home-des {
   margin-bottom: 20px;

@@ -28047,20 +28047,14 @@
 	            { className: 'header-navigation-links group' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/', activeClassName: 'current', className: 'header-nav-link' },
-	              'Home',
-	              _react2.default.createElement('nav', { className: 'hover-bar' })
-	            ),
-	            _react2.default.createElement(
-	              _reactRouter.Link,
 	              { to: '/resume', activeClassName: 'current', className: 'header-nav-link' },
 	              'Resume',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/contact', activeClassName: 'current', className: 'header-nav-link' },
-	              'Contact',
+	              { to: '/', activeClassName: 'current', className: 'header-nav-link' },
+	              'Home',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            ),
 	            _react2.default.createElement(
@@ -28135,7 +28129,7 @@
 	        _react2.default.createElement(
 	          'text',
 	          { className: 'footer-right' },
-	          '\u222B\u0192(x,y)\u03C1(x) dx = C'
+	          'nash(x)= max min \u222B\u0192(x,y)\u03C1(x) dx'
 	        ),
 	        _react2.default.createElement(
 	          'text',
@@ -28203,7 +28197,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'home-des home-des1' },
-	            'Software Engineer'
+	            'I\'m a Software Engineer based in New York City.'
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -28213,17 +28207,45 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'home-des home-des3' },
-	            'Studied Web Development at App Academy and'
+	            'I Studied Web Development at App Academy and Mathematics at Penn State'
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'home-des home-des4' },
-	            'Mathematics at Penn State'
+	            'I\'m interested in web development, algorithms, mathematics and game design.'
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'home-des home-des5' },
 	            'Check out my site or shoot me an email'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'profile-contact-section group' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'profile-contact' },
+	              'Contact:'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'home-icons' },
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/AnthonyDeluca718' },
+	                _react2.default.createElement('i', { className: 'devicon-github-plain colored' })
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/AnthonyDeluca718' },
+	                _react2.default.createElement('i', { className: 'fa fa-linkedin', 'aria-hidden': 'true' })
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'mailto:mail@adeluca.io' },
+	                _react2.default.createElement('i', { className: 'fa fa-envelope', 'aria-hidden': 'true' })
+	              )
+	            )
 	          )
 	        )
 	      );
@@ -28362,14 +28384,25 @@
 	        ),
 	        _react2.default.createElement(
 	          'ul',
-	          { className: 'contact-actions' },
+	          { className: 'home-icons' },
 	          _react2.default.createElement(
 	            'li',
 	            null,
+	            ' ',
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'mailto:mail@adeluca.io', className: 'mail-button button' },
-	              'Email'
+	              { href: 'https://github.com/AnthonyDeluca718' },
+	              _react2.default.createElement('i', { className: 'devicon-github-plain colored' })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            ' ',
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/AnthonyDeluca718' },
+	              _react2.default.createElement('i', { className: 'fa fa-linkedin', 'aria-hidden': 'true' })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -28377,8 +28410,8 @@
 	            null,
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'assets/resume.pdf', className: 'resume-button button' },
-	              'Resume'
+	              { href: 'mailto:mail@adeluca.io' },
+	              _react2.default.createElement('i', { className: 'fa fa-envelope', 'aria-hidden': 'true' })
 	            )
 	          )
 	        )
@@ -28708,20 +28741,14 @@
 	              { className: 'header-navigation-links group' },
 	              _react2.default.createElement(
 	                _reactRouter.Link,
-	                { to: '/', activeClassName: 'current', className: 'header-nav-link' },
-	                'Home',
-	                _react2.default.createElement('nav', { className: 'hover-bar' })
-	              ),
-	              _react2.default.createElement(
-	                _reactRouter.Link,
 	                { to: '/resume', activeClassName: 'current', className: 'header-nav-link' },
 	                'Resume',
 	                _react2.default.createElement('nav', { className: 'hover-bar' })
 	              ),
 	              _react2.default.createElement(
 	                _reactRouter.Link,
-	                { to: '/contact', activeClassName: 'current', className: 'header-nav-link' },
-	                'Contact',
+	                { to: '/', activeClassName: 'current', className: 'header-nav-link' },
+	                'Home',
 	                _react2.default.createElement('nav', { className: 'hover-bar' })
 	              ),
 	              _react2.default.createElement(

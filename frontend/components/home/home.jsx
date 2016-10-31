@@ -18,7 +18,7 @@ class Home extends React.Component {
         <div className="home-right">
 
           <div className="home-des home-des1">
-            Software Engineer
+            I'm a Software Engineer based in New York City.
           </div>
 
           <div className="home-des home-des2">
@@ -26,15 +26,29 @@ class Home extends React.Component {
           </div>
 
           <div className="home-des home-des3">
-              Studied Web Development at App Academy and
+              I Studied Web Development at App Academy and Mathematics at Penn State
           </div >
 
           <div className="home-des home-des4">
-              Mathematics at Penn State
+            I'm interested in web development, algorithms, mathematics and game design.
           </div >
 
           <div className="home-des home-des5">
             Check out my site or shoot me an email
+          </div>
+
+          <div className="profile-contact-section group">
+
+            <div className="profile-contact">
+              Contact:
+            </div>
+
+            <div className="home-icons">
+              <a href="https://github.com/AnthonyDeluca718"><i className="devicon-github-plain colored"></i></a>
+              <a href="https://github.com/AnthonyDeluca718"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="mailto:mail@adeluca.io" ><i className="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+
           </div>
 
         </div>
