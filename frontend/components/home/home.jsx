@@ -15,7 +15,7 @@ class Home extends React.Component {
           <img src="images/profile_picture.jpeg" alt="profile image" className="profile-pic"/>
         </div>
 
-        <div className="home-right">
+        <div className="home-right group">
 
           <div className="home-des home-des1">
             I'm a Software Engineer based in New York City.
@@ -39,13 +39,25 @@ class Home extends React.Component {
 
           <div className="profile-contact-section group">
 
-            <div className="profile-contact">
-              Contact:
+            <div className="home-sites">
+              Sites:
             </div>
 
             <div className="home-icons">
               <a href="https://github.com/AnthonyDeluca718"><i className="devicon-github-plain colored"></i></a>
               <a href="https://github.com/AnthonyDeluca718"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+
+          </div>
+
+
+          <div className="home-email-section group">
+
+            <div className="home-email">
+              Email:
+            </div>
+
+            <div className="home-icons" >
               <a href="mailto:mail@adeluca.io" ><i className="fa fa-envelope" aria-hidden="true"></i></a>
             </div>
 

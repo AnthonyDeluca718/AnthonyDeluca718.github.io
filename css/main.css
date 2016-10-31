@@ -46,11 +46,6 @@ html, body {
 }
 /* Header */
 
-.skill-icon {
-  font-size: 32px;
-}
-
-
 .header-content {
   background: #F7F5F2;
   /*background: #F8F9FD; */
@@ -58,7 +53,7 @@ html, body {
   border: 1px solid red;
   border-radius: 6px;
   width: 90%;
-  margin: 30px auto;
+  margin: 30px auto 40px auto;
   vertical-align: middle;
   justify-content: center; /* align horizontal */
   align-items: center;
@@ -116,7 +111,19 @@ header .header-nav-link:hover .hover-bar {
 /* Skills */
 
 .skills-content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.skills-header {
   width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 44px;
+}
+
+.skill-icon {
+  margin: 8px;
 }
 
 /* Resume */
@@ -145,7 +152,7 @@ header .header-nav-link:hover .hover-bar {
   border: 1px solid red;
   border-radius: 6px;
   width: 90%;
-  margin: 30px auto;
+  margin: 30px auto 40px auto;
   font-size: 12px;
   text-align: center;
 }
@@ -217,6 +224,9 @@ header .header-nav-link:hover .hover-bar {
 }
 
 .home-left {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 35%;
   float: left;
 }
@@ -224,7 +234,6 @@ header .header-nav-link:hover .hover-bar {
 .profile-pic {
   width: 100%;
   height: auto;
-  margin: 31px 10px 0 10px;
 }
 
 .home-right {
@@ -234,10 +243,10 @@ header .header-nav-link:hover .hover-bar {
   float: left;
   margin-left: 5%;
   border: 1px solid red;
-  height: 427px;
+  height: auto;
   border-radius: 6px;
   background: #F7F5F2;
-  padding: 20px;
+  padding: 30px;
   font-family: 'Rubik', 'sans-serif';
 }
 
@@ -250,10 +259,27 @@ header .header-nav-link:hover .hover-bar {
   text-align: center;
 }
 
+.home-email {
+  padding-top: 18px;
+  float: left;
+  color: red;
+  font-size: 28px;
+  margin-right: 35px;
+}
+
+.home-sites {
+  padding-top: 15px;
+  float: left;
+  color: red;
+  font-size: 28px;
+  margin-right: 30px;
+}
+
 .home-icons a {
-  margin-left: 20px;
-  font-size: 32px;
+  margin-right: 30px;
+  font-size: 60px;
   display: inline-block;
+  float: left;
 }
 
 

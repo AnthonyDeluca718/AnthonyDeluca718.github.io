@@ -21510,7 +21510,6 @@
 	        { path: '/', component: _app2.default },
 	        _react2.default.createElement(_reactRouter.IndexRoute, { component: _home2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/skills', component: _skills2.default }),
-	        _react2.default.createElement(_reactRouter.Route, { path: '/contact', component: _contact2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/projects', component: _projects2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/resume', component: _resume2.default })
 	      ),
@@ -28053,12 +28052,6 @@
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/', activeClassName: 'current', className: 'header-nav-link' },
-	              'Home',
-	              _react2.default.createElement('nav', { className: 'hover-bar' })
-	            ),
-	            _react2.default.createElement(
-	              _reactRouter.Link,
 	              { to: '/projects', activeClassName: 'current', className: 'header-nav-link' },
 	              'Projects',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
@@ -28067,6 +28060,12 @@
 	              _reactRouter.Link,
 	              { to: '/skills', activeClassName: 'current', className: 'header-nav-link' },
 	              'Skills',
+	              _react2.default.createElement('nav', { className: 'hover-bar' })
+	            ),
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/', activeClassName: 'current', className: 'header-nav-link' },
+	              'Home',
 	              _react2.default.createElement('nav', { className: 'hover-bar' })
 	            )
 	          )
@@ -28193,7 +28192,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'home-right' },
+	          { className: 'home-right group' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'home-des home-des1' },
@@ -28224,8 +28223,8 @@
 	            { className: 'profile-contact-section group' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'profile-contact' },
-	              'Contact:'
+	              { className: 'home-sites' },
+	              'Sites:'
 	            ),
 	            _react2.default.createElement(
 	              'div',
@@ -28239,7 +28238,20 @@
 	                'a',
 	                { href: 'https://github.com/AnthonyDeluca718' },
 	                _react2.default.createElement('i', { className: 'fa fa-linkedin', 'aria-hidden': 'true' })
-	              ),
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'home-email-section group' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'home-email' },
+	              'Email:'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'home-icons' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: 'mailto:mail@adeluca.io' },
@@ -28301,20 +28313,28 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'skills-content' },
-	        'Skills',
-	        _react2.default.createElement('i', { className: 'devicon-amazonwebservices-original skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-atom-original colored skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-cplusplus-line colored skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-css3-plain colored skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-git-plain skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-heroku-original skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-html5-plain colored skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-javascript-plain colored skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-jquery-plain skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-postgresql-plain colored skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-rails-plain colored skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-react-original colored skill-icon' }),
-	        _react2.default.createElement('i', { className: 'devicon-ruby-plain colored skill-icon' })
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'skills-header' },
+	          _react2.default.createElement('i', { className: 'devicon-ruby-plain colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-rails-plain colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-javascript-plain colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-react-original colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-cplusplus-line colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-jquery-plain skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-git-plain skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-css3-plain colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-html5-plain colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-heroku-original skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-postgresql-plain colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-amazonwebservices-original skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-chrome-plain colored' }),
+	          _react2.default.createElement('i', { className: 'devicon-atom-original colored skill-icon' }),
+	          _react2.default.createElement('i', { className: 'devicon-mysql-plain' }),
+	          _react2.default.createElement('i', { className: 'devicon-apple-original' })
+	        ),
+	        _react2.default.createElement('div', { className: 'skills-list' }),
+	        _react2.default.createElement('div', { className: 'skills-explanation' })
 	      );
 	    }
 	  }]);
@@ -28747,12 +28767,6 @@
 	              ),
 	              _react2.default.createElement(
 	                _reactRouter.Link,
-	                { to: '/', activeClassName: 'current', className: 'header-nav-link' },
-	                'Home',
-	                _react2.default.createElement('nav', { className: 'hover-bar' })
-	              ),
-	              _react2.default.createElement(
-	                _reactRouter.Link,
 	                { to: '/projects', activeClassName: 'current', className: 'header-nav-link' },
 	                'Projects',
 	                _react2.default.createElement('nav', { className: 'hover-bar' })
@@ -28761,6 +28775,12 @@
 	                _reactRouter.Link,
 	                { to: '/skills', activeClassName: 'current', className: 'header-nav-link' },
 	                'Skills',
+	                _react2.default.createElement('nav', { className: 'hover-bar' })
+	              ),
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/', activeClassName: 'current', className: 'header-nav-link' },
+	                'Home',
 	                _react2.default.createElement('nav', { className: 'hover-bar' })
 	              )
 	            )

@@ -19,7 +19,6 @@ const Root = ({store}) => {
         <Route path="/" component={App}>
           <IndexRoute component={Home} />
           <Route path="/skills" component = {Skills} />
-          <Route path="/contact" component = {Contact} />
           <Route path="/projects" component = {Projects} />
           <Route path="/resume" component = {Resume} />
         </Route>
