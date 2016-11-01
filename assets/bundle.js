@@ -28636,7 +28636,13 @@
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
-	              'Checkout the code: ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'http://adeluca.io/JS_Chess', className: 'text-link' },
+	                'Live'
+	              ),
+	              ' ',
 	              _react2.default.createElement(
 	                'a',
 	                { href: 'https://github.com/AnthonyDeluca718/JS_Chess', className: 'text-link' },
@@ -28663,22 +28669,33 @@
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
-	              'Full Stack Application. Rails on the backend, React on the frontend. '
+	              'Kickstarter inspired Full Stack Application. Rails on the backend, React on the frontend. '
 	            ),
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
-	              'a combination of database management and frontend controls prevents users from crashing the database'
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'project-sentence' },
-	              'A miniture build of JQuery that cpatures the main fucnitonality.'
+	              'A combination of database management and frontend controls prevents users from crashing the database'
 	            ),
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
 	              'Many errors are caught on the frontend to save database queries.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'project-sentence' },
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://adeluca-kickstarter.herokuapp.com/#/?_k=2k3ypc', className: 'text-link' },
+	                'Live'
+	              ),
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/AnthonyDeluca718/Kickstarter', className: 'text-link' },
+	                'Github'
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -28734,6 +28751,22 @@
 	              'div',
 	              { className: 'project-sentence' },
 	              'Tic Tac Toe game demonstrates the effectiveness of the code.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'project-sentence' },
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'http://adeluca.io/MiniJQuery', className: 'text-link' },
+	                'Live'
+	              ),
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/AnthonyDeluca718/MiniJQuery', className: 'text-link' },
+	                'Github'
+	              )
 	            )
 	          )
 	        )

@@ -256,14 +256,6 @@ header .header-nav-link:hover .hover-bar {
   text-align: left;
 }
 
-.projects-content .left {
-  float: left;
-}
-
-.projects-content .right {
-  float: right;
-}
-
 .project-spotlight {
   margin-bottom: 30px;
 }
@@ -285,23 +277,26 @@ header .header-nav-link:hover .hover-bar {
 
 .projects-content .left {
   float: left;
-  margin-right: 10px;
 }
 
 .projects-content .right {
   float: right;
-  margin-left: 10px;
 }
 
 .projects-content h2 {
   font-size: 36px;
-  font-weight:
+  text-decoration: underline;
+  color: blue;
 }
 
 .project-sentence {
   font-size: 24px;
   display: block;
   margin: 20px 0;
+}
+
+.projects-content a {
+  color: blue;
 }
 
 /* Home */
