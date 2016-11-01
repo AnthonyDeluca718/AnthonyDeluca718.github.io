@@ -28602,7 +28602,7 @@
 	            { className: 'image project-image left' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://github.com/AnthonyDeluca718/JS_Chess' },
+	              { href: 'http://adeluca.io/JS_Chess' },
 	              _react2.default.createElement('img', { src: 'images/BoardState.png', alt: '', className: 'chess-pic' })
 	            )
 	          ),
@@ -28611,7 +28611,7 @@
 	            { className: 'project-show right' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'http://adeluca.io/JS_Chess', className: 'project-link' },
+	              { href: 'https://github.com/AnthonyDeluca718/JS_Chess', className: 'project-link' },
 	              _react2.default.createElement(
 	                'h2',
 	                null,

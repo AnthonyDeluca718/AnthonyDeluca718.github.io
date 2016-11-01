@@ -13,12 +13,12 @@ class Projects extends React.Component {
 
         <section className="project-spotlight  group">
           <div className="image project-image left">
-            <a href="https://github.com/AnthonyDeluca718/JS_Chess">
+            <a href="http://adeluca.io/JS_Chess">
               <img src="images/BoardState.png" alt="" className="chess-pic"/>
             </a>
           </div>
           <div className="project-show right">
-            <a href="http://adeluca.io/JS_Chess" className="project-link">
+            <a href="https://github.com/AnthonyDeluca718/JS_Chess" className="project-link">
               <h2>JavaScript Chess</h2>
             </a>
             <div className="project-sentence">Javascript Chess built with React/Redux. Supports both normal chess and chess with random starting board.</div>
