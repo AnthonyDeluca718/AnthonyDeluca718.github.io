@@ -13,12 +13,12 @@ class Projects extends React.Component {
 
         <section className="project-spotlight  group">
           <div className="image project-image left">
-            <a href="https://anthonydeluca718.github.io/JS_Chess/">
+            <a href="https://github.com/AnthonyDeluca718/JS_Chess">
               <img src="images/BoardState.png" alt="" className="chess-pic"/>
             </a>
           </div>
           <div className="project-show right">
-            <a href="https://anthonydeluca718.github.io/JS_Chess/" className="project-link">
+            <a href="http://adeluca.io/JS_Chess" className="project-link">
               <h2>JavaScript Chess</h2>
             </a>
             <div className="project-sentence">Javascript Chess built with React/Redux. Supports both normal chess and chess with random starting board.</div>
@@ -31,7 +31,7 @@ class Projects extends React.Component {
         <section className="project-spotlight group">
 
           <div className="project-show left">
-            <a href="https://adeluca-kickstarter.herokuapp.com" className="project-link">
+            <a href="https://github.com/AnthonyDeluca718/Kickstarter" className="project-link">
               <h2>ClonedStarter</h2>
             </a>
             <div className="project-sentence">Kickstarter inspired Full Stack Application. Rails on the backend, React on the frontend. </div>
@@ -40,7 +40,7 @@ class Projects extends React.Component {
             <div className="project-sentence"> <a href="https://adeluca-kickstarter.herokuapp.com/#/?_k=2k3ypc" className="text-link">Live</a> <a href="https://github.com/AnthonyDeluca718/Kickstarter" className="text-link">Github</a></div>
           </div>
           <div className="image project-image right">
-            <a href="https://adeluca-kickstarter.herokuapp.com">
+            <a href="https://adeluca-kickstarter.herokuapp.com/#/?_k=2k3ypc">
               <img src="images/ClonedStarter.png" alt="" className="cloned-starter-pic" />
             </a>
           </div>
@@ -48,12 +48,12 @@ class Projects extends React.Component {
 
         <section className="project-spotlight group">
           <div className="image project-image left">
-            <a href="https://anthonydeluca718.github.io/MiniJQuery/">
+            <a href="http://adeluca.io/MiniJQuery">
               <img src="images/TicTacToe.png" alt="" className="ttt-pic"/>
             </a>
           </div>
           <div className="project-show right">
-            <a href="https://anthonydeluca718.github.io/MiniJQuery/" className="project-link">
+            <a href="https://github.com/AnthonyDeluca718/MiniJQuery" className="project-link">
               <h2>MiniJQuery</h2>
             </a>
             <div className="project-sentence">A miniture build of JQuery that cpatures the main fucnitonality.</div>
