@@ -252,6 +252,18 @@ header .header-nav-link:hover .hover-bar {
   margin: 0 auto;
 }
 
+.projects-content .left {
+  text-align: left;
+}
+
+.projects-content .left {
+  float: left;
+}
+
+.projects-content .right {
+  float: right;
+}
+
 .project-spotlight {
   margin-bottom: 30px;
 }
@@ -259,6 +271,11 @@ header .header-nav-link:hover .hover-bar {
 .project-image {
   display: block;
   width: 40%;
+  height: auto;
+}
+
+.projects-content img {
+  width: 100%;
 }
 
 .project-show {
@@ -268,10 +285,23 @@ header .header-nav-link:hover .hover-bar {
 
 .projects-content .left {
   float: left;
+  margin-right: 10px;
 }
 
 .projects-content .right {
   float: right;
+  margin-left: 10px;
+}
+
+.projects-content h2 {
+  font-size: 36px;
+  font-weight:
+}
+
+.project-sentence {
+  font-size: 24px;
+  display: block;
+  margin: 20px 0;
 }
 
 /* Home */

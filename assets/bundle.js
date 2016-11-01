@@ -58,11 +58,11 @@
 	
 	var _root2 = _interopRequireDefault(_root);
 	
-	var _store = __webpack_require__(260);
+	var _store = __webpack_require__(261);
 	
 	var _store2 = _interopRequireDefault(_store);
 	
-	var _reactModal = __webpack_require__(263);
+	var _reactModal = __webpack_require__(264);
 	
 	var _reactModal2 = _interopRequireDefault(_reactModal);
 	
@@ -21490,7 +21490,7 @@
 	
 	var _error2 = _interopRequireDefault(_error);
 	
-	var _resume = __webpack_require__(283);
+	var _resume = __webpack_require__(260);
 	
 	var _resume2 = _interopRequireDefault(_resume);
 	
@@ -28596,7 +28596,16 @@
 	        { className: 'projects-content' },
 	        _react2.default.createElement(
 	          'section',
-	          { className: 'project-spotlight group' },
+	          { className: 'project-spotlight  group' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image project-image left' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://anthonydeluca718.github.io/JS_Chess/' },
+	              _react2.default.createElement('img', { src: 'images/BoardState.png', alt: '', className: 'chess-pic' })
+	            )
+	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'project-show right' },
@@ -28610,38 +28619,29 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'p',
-	              null,
+	              'div',
+	              { className: 'project-sentence' },
 	              'Javascript Chess built with React/Redux. Supports both normal chess and chess with random starting board.'
 	            ),
 	            _react2.default.createElement(
-	              'p',
-	              null,
+	              'div',
+	              { className: 'project-sentence' },
 	              'The chess rules were written in JavaScript with a heavily object-oriented deisgn. Each piece is an object as is the board itself. Even empty spaces are respresented by null-pieces. The frontend user interface is written in React/Redux.'
 	            ),
 	            _react2.default.createElement(
-	              'p',
-	              null,
+	              'div',
+	              { className: 'project-sentence' },
 	              'The object oriented design makes it easy to add features. For example the random mode was easy to set up. The only required code was a funciton to randomly set up the board and the react/redux code to handle the randomizer button.'
 	            ),
 	            _react2.default.createElement(
-	              'p',
-	              null,
+	              'div',
+	              { className: 'project-sentence' },
 	              'Checkout the code: ',
 	              _react2.default.createElement(
 	                'a',
 	                { href: 'https://github.com/AnthonyDeluca718/JS_Chess', className: 'text-link' },
 	                'Github'
 	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'image project-image left' },
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://anthonydeluca718.github.io/JS_Chess/' },
-	              _react2.default.createElement('img', { src: 'images/BoardState.png', alt: '', className: 'chess-pic' })
 	            )
 	          )
 	        ),
@@ -28661,9 +28661,24 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'A fullstack application inspired by AirBnB, built with Ruby on Rails on the backend and with React.js and Redux on the front end.  This app integrates the Google Maps API to allow users to search, filter, and display bookings by location.'
+	              'div',
+	              { className: 'project-sentence' },
+	              'Full Stack Application. Rails on the backend, React on the frontend. '
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'project-sentence' },
+	              'a combination of database management and frontend controls prevents users from crashing the database'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'project-sentence' },
+	              'A miniture build of JQuery that cpatures the main fucnitonality.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'project-sentence' },
+	              'Many errors are caught on the frontend to save database queries.'
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -28681,6 +28696,15 @@
 	          { className: 'project-spotlight group' },
 	          _react2.default.createElement(
 	            'div',
+	            { className: 'image project-image left' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://anthonydeluca718.github.io/MiniJQuery/' },
+	              _react2.default.createElement('img', { src: 'images/TicTacToe.png', alt: '', className: 'ttt-pic' })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
 	            { className: 'project-show right' },
 	            _react2.default.createElement(
 	              'a',
@@ -28692,18 +28716,24 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'p',
-	              null,
+	              'div',
+	              { className: 'project-sentence' },
 	              'A miniture build of JQuery that cpatures the main fucnitonality.'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'image project-image left' },
+	            ),
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://anthonydeluca718.github.io/MiniJQuery/' },
-	              _react2.default.createElement('img', { src: 'images/TicTacToe.png', alt: '', className: 'ttt-pic' })
+	              'div',
+	              { className: 'project-sentence' },
+	              'Built with vanilla Javascript and native DOM manipulations.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'project-sentence' },
+	              '.ajax method was used in ClonedStarter. Ajax method handles both form objects and json.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'project-sentence' },
+	              'Tic Tac Toe game demonstrates the effectiveness of the code.'
 	            )
 	          )
 	        )
@@ -28933,13 +28963,73 @@
 	  value: true
 	});
 	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(197);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Resume = function (_React$Component) {
+	  _inherits(Resume, _React$Component);
+	
+	  function Resume(props) {
+	    _classCallCheck(this, Resume);
+	
+	    return _possibleConstructorReturn(this, (Resume.__proto__ || Object.getPrototypeOf(Resume)).call(this, props));
+	  }
+	
+	  _createClass(Resume, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'object',
+	          { data: './assets/resume.pdf', type: 'application/pdf', className: 'resume-object' },
+	          'Your browser does not support pdfs, ',
+	          _react2.default.createElement(
+	            'a',
+	            { href: './assets/resume.pdf' },
+	            'click here to download the file.'
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Resume;
+	}(_react2.default.Component);
+	
+	exports.default = Resume;
+
+/***/ },
+/* 261 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
 	var _redux = __webpack_require__(180);
 	
-	var _reducer = __webpack_require__(261);
+	var _reducer = __webpack_require__(262);
 	
 	var _reducer2 = _interopRequireDefault(_reducer);
 	
-	var _middleware = __webpack_require__(262);
+	var _middleware = __webpack_require__(263);
 	
 	var _middleware2 = _interopRequireDefault(_middleware);
 	
@@ -28957,7 +29047,7 @@
 	exports.default = configureStore;
 
 /***/ },
-/* 261 */
+/* 262 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28975,7 +29065,7 @@
 	exports.default = Reducer;
 
 /***/ },
-/* 262 */
+/* 263 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -29000,25 +29090,25 @@
 	exports.default = Middleware;
 
 /***/ },
-/* 263 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(264);
+	module.exports = __webpack_require__(265);
 	
 
 
 /***/ },
-/* 264 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(34);
-	var ExecutionEnvironment = __webpack_require__(265);
-	var ModalPortal = React.createFactory(__webpack_require__(266));
-	var ariaAppHider = __webpack_require__(281);
-	var elementClass = __webpack_require__(282);
+	var ExecutionEnvironment = __webpack_require__(266);
+	var ModalPortal = React.createFactory(__webpack_require__(267));
+	var ariaAppHider = __webpack_require__(282);
+	var elementClass = __webpack_require__(283);
 	var renderSubtreeIntoContainer = __webpack_require__(34).unstable_renderSubtreeIntoContainer;
-	var Assign = __webpack_require__(270);
+	var Assign = __webpack_require__(271);
 	
 	var SafeHTMLElement = ExecutionEnvironment.canUseDOM ? window.HTMLElement : {};
 	var AppElement = ExecutionEnvironment.canUseDOM ? document.body : {appendChild: function() {}};
@@ -29129,7 +29219,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ },
-/* 265 */
+/* 266 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -29174,14 +29264,14 @@
 
 
 /***/ },
-/* 266 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
 	var div = React.DOM.div;
-	var focusManager = __webpack_require__(267);
-	var scopeTab = __webpack_require__(269);
-	var Assign = __webpack_require__(270);
+	var focusManager = __webpack_require__(268);
+	var scopeTab = __webpack_require__(270);
+	var Assign = __webpack_require__(271);
 	
 	// so that our CSS is statically analyzable
 	var CLASS_NAMES = {
@@ -29392,10 +29482,10 @@
 
 
 /***/ },
-/* 267 */
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var findTabbable = __webpack_require__(268);
+	var findTabbable = __webpack_require__(269);
 	var modalElement = null;
 	var focusLaterElement = null;
 	var needToFocus = false;
@@ -29466,7 +29556,7 @@
 
 
 /***/ },
-/* 268 */
+/* 269 */
 /***/ function(module, exports) {
 
 	/*!
@@ -29522,10 +29612,10 @@
 
 
 /***/ },
-/* 269 */
+/* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var findTabbable = __webpack_require__(268);
+	var findTabbable = __webpack_require__(269);
 	
 	module.exports = function(node, event) {
 	  var tabbable = findTabbable(node);
@@ -29547,7 +29637,7 @@
 
 
 /***/ },
-/* 270 */
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -29558,9 +29648,9 @@
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseAssign = __webpack_require__(271),
-	    createAssigner = __webpack_require__(277),
-	    keys = __webpack_require__(273);
+	var baseAssign = __webpack_require__(272),
+	    createAssigner = __webpack_require__(278),
+	    keys = __webpack_require__(274);
 	
 	/**
 	 * A specialized version of `_.assign` for customizing assigned values without
@@ -29633,7 +29723,7 @@
 
 
 /***/ },
-/* 271 */
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -29644,8 +29734,8 @@
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseCopy = __webpack_require__(272),
-	    keys = __webpack_require__(273);
+	var baseCopy = __webpack_require__(273),
+	    keys = __webpack_require__(274);
 	
 	/**
 	 * The base implementation of `_.assign` without support for argument juggling,
@@ -29666,7 +29756,7 @@
 
 
 /***/ },
-/* 272 */
+/* 273 */
 /***/ function(module, exports) {
 
 	/**
@@ -29704,7 +29794,7 @@
 
 
 /***/ },
-/* 273 */
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -29715,9 +29805,9 @@
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var getNative = __webpack_require__(274),
-	    isArguments = __webpack_require__(275),
-	    isArray = __webpack_require__(276);
+	var getNative = __webpack_require__(275),
+	    isArguments = __webpack_require__(276),
+	    isArray = __webpack_require__(277);
 	
 	/** Used to detect unsigned integer values. */
 	var reIsUint = /^\d+$/;
@@ -29946,7 +30036,7 @@
 
 
 /***/ },
-/* 274 */
+/* 275 */
 /***/ function(module, exports) {
 
 	/**
@@ -30089,7 +30179,7 @@
 
 
 /***/ },
-/* 275 */
+/* 276 */
 /***/ function(module, exports) {
 
 	/**
@@ -30324,7 +30414,7 @@
 
 
 /***/ },
-/* 276 */
+/* 277 */
 /***/ function(module, exports) {
 
 	/**
@@ -30510,7 +30600,7 @@
 
 
 /***/ },
-/* 277 */
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -30521,9 +30611,9 @@
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var bindCallback = __webpack_require__(278),
-	    isIterateeCall = __webpack_require__(279),
-	    restParam = __webpack_require__(280);
+	var bindCallback = __webpack_require__(279),
+	    isIterateeCall = __webpack_require__(280),
+	    restParam = __webpack_require__(281);
 	
 	/**
 	 * Creates a function that assigns properties of source object(s) to a given
@@ -30568,7 +30658,7 @@
 
 
 /***/ },
-/* 278 */
+/* 279 */
 /***/ function(module, exports) {
 
 	/**
@@ -30639,7 +30729,7 @@
 
 
 /***/ },
-/* 279 */
+/* 280 */
 /***/ function(module, exports) {
 
 	/**
@@ -30777,7 +30867,7 @@
 
 
 /***/ },
-/* 280 */
+/* 281 */
 /***/ function(module, exports) {
 
 	/**
@@ -30850,7 +30940,7 @@
 
 
 /***/ },
-/* 281 */
+/* 282 */
 /***/ function(module, exports) {
 
 	var _element = typeof document !== 'undefined' ? document.body : null;
@@ -30898,7 +30988,7 @@
 
 
 /***/ },
-/* 282 */
+/* 283 */
 /***/ function(module, exports) {
 
 	module.exports = function(opts) {
@@ -30961,66 +31051,6 @@
 	  else this.add(className)
 	}
 
-
-/***/ },
-/* 283 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(197);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var Resume = function (_React$Component) {
-	  _inherits(Resume, _React$Component);
-	
-	  function Resume(props) {
-	    _classCallCheck(this, Resume);
-	
-	    return _possibleConstructorReturn(this, (Resume.__proto__ || Object.getPrototypeOf(Resume)).call(this, props));
-	  }
-	
-	  _createClass(Resume, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'object',
-	          { data: './assets/resume.pdf', type: 'application/pdf', className: 'resume-object' },
-	          'Your browser does not support pdfs, ',
-	          _react2.default.createElement(
-	            'a',
-	            { href: './assets/resume.pdf' },
-	            'click here to download the file.'
-	          )
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return Resume;
-	}(_react2.default.Component);
-	
-	exports.default = Resume;
 
 /***/ }
 /******/ ]);
