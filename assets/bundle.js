@@ -28236,7 +28236,7 @@
 	              ),
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'https://github.com/AnthonyDeluca718' },
+	                { href: 'https://www.linkedin.com/in/a-deluca' },
 	                _react2.default.createElement('i', { className: 'fa fa-linkedin', 'aria-hidden': 'true' })
 	              )
 	            )

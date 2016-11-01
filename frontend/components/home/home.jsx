@@ -45,7 +45,7 @@ class Home extends React.Component {
 
             <div className="home-icons">
               <a href="https://github.com/AnthonyDeluca718"><i className="devicon-github-plain colored"></i></a>
-              <a href="https://github.com/AnthonyDeluca718"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/a-deluca"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
 
           </div>
