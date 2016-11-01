@@ -28602,7 +28602,7 @@
 	            { className: 'image project-image left' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://anthonydeluca718.github.io/JS_Chess/' },
+	              { href: 'https://github.com/AnthonyDeluca718/JS_Chess' },
 	              _react2.default.createElement('img', { src: 'images/BoardState.png', alt: '', className: 'chess-pic' })
 	            )
 	          ),
@@ -28611,7 +28611,7 @@
 	            { className: 'project-show right' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://anthonydeluca718.github.io/JS_Chess/', className: 'project-link' },
+	              { href: 'http://adeluca.io/JS_Chess', className: 'project-link' },
 	              _react2.default.createElement(
 	                'h2',
 	                null,
@@ -28659,7 +28659,7 @@
 	            { className: 'project-show left' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://adeluca-kickstarter.herokuapp.com', className: 'project-link' },
+	              { href: 'https://github.com/AnthonyDeluca718/Kickstarter', className: 'project-link' },
 	              _react2.default.createElement(
 	                'h2',
 	                null,
@@ -28703,7 +28703,7 @@
 	            { className: 'image project-image right' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://adeluca-kickstarter.herokuapp.com' },
+	              { href: 'https://adeluca-kickstarter.herokuapp.com/#/?_k=2k3ypc' },
 	              _react2.default.createElement('img', { src: 'images/ClonedStarter.png', alt: '', className: 'cloned-starter-pic' })
 	            )
 	          )
@@ -28716,7 +28716,7 @@
 	            { className: 'image project-image left' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://anthonydeluca718.github.io/MiniJQuery/' },
+	              { href: 'http://adeluca.io/MiniJQuery' },
 	              _react2.default.createElement('img', { src: 'images/TicTacToe.png', alt: '', className: 'ttt-pic' })
 	            )
 	          ),
@@ -28725,7 +28725,7 @@
 	            { className: 'project-show right' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://anthonydeluca718.github.io/MiniJQuery/', className: 'project-link' },
+	              { href: 'https://github.com/AnthonyDeluca718/MiniJQuery', className: 'project-link' },
 	              _react2.default.createElement(
 	                'h2',
 	                null,
