@@ -22,7 +22,7 @@ class Projects extends React.Component {
               <h2>JavaScript Chess</h2>
             </a>
             <div className="project-sentence">Javascript Chess built with React/Redux. Supports both normal chess and chess with random starting board.</div>
-            <div className="project-sentence">The chess rules were written in JavaScript with a heavily object-oriented deisgn. Each piece is an object as is the board itself. Even empty spaces are respresented by null-pieces. The frontend user interface is written in React/Redux.</div>
+            <div className="project-sentence">The chess rules were written in JavaScript with a heavily object-oriented design. Each piece is an object as is the board itself. Even empty spaces are respresented by null-pieces. The frontend user interface is written in React/Redux.</div>
             <div className="project-sentence">The object oriented design makes it easy to add features. For example the random mode was easy to set up. The only required code was a funciton to randomly set up the board and the react/redux code to handle the randomizer button.</div>
             <div className="project-sentence"> <a href="http://adeluca.io/JS_Chess" className="text-link">Live</a> <a href="https://github.com/AnthonyDeluca718/JS_Chess" className="text-link">Github</a></div>
           </div>
