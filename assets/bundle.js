@@ -28615,23 +28615,23 @@
 	              _react2.default.createElement(
 	                'h2',
 	                null,
-	                'JavaScript Chess'
+	                'React Chess'
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
-	              'Javascript Chess built with React/Redux. Supports both normal chess and chess with random starting board.'
+	              'JavaScript Chess built with React/Redux. Supports both normal chess and chess with random starting board.'
 	            ),
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
-	              'The chess rules were written in JavaScript with a heavily object-oriented deisgn. Each piece is an object as is the board itself. Even empty spaces are respresented by null-pieces. The frontend user interface is written in React/Redux.'
+	              'The chess rules were written in JavaScript with a heavily object-oriented design. Each piece is an object as is the board itself. Even empty spaces are respresented by null-pieces. The frontend user interface is written in React/Redux.'
 	            ),
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
-	              'The object oriented design makes it easy to add features. For example the random mode was easy to set up. The only required code was a funciton to randomly set up the board and the react/redux code to handle the randomizer button.'
+	              'Object oriented design makes it easy to add features. For example the random mode was easy to set up. The only required code was a method to randomly set up the board and the react/redux code to handle the randomizer button.'
 	            ),
 	            _react2.default.createElement(
 	              'div',
@@ -28669,7 +28669,7 @@
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
-	              'Kickstarter inspired Full Stack Application. Rails on the backend, React on the frontend. '
+	              'Kickstarter inspired Full Stack Application. Rails on the backend, React.js on the frontend. '
 	            ),
 	            _react2.default.createElement(
 	              'div',
@@ -28687,7 +28687,7 @@
 	              ' ',
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'https://adeluca-kickstarter.herokuapp.com/#/?_k=2k3ypc', className: 'text-link' },
+	                { href: 'http://www.clonedstarter.tech', className: 'text-link' },
 	                'Live'
 	              ),
 	              ' ',
@@ -28703,7 +28703,7 @@
 	            { className: 'image project-image right' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://adeluca-kickstarter.herokuapp.com/#/?_k=2k3ypc' },
+	              { href: 'http://www.clonedstarter.tech' },
 	              _react2.default.createElement('img', { src: 'images/ClonedStarter.png', alt: '', className: 'cloned-starter-pic' })
 	            )
 	          )
@@ -28745,7 +28745,7 @@
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'project-sentence' },
-	              '.ajax method was used in ClonedStarter. Ajax method handles both form objects and json.'
+	              'Ajax method handles both form objects and json. AJAX method also automatically adds cserf tokens to the generated xhr requests. I used miniJQuery instead of full JQuery in ClonedStarter'
 	            ),
 	            _react2.default.createElement(
 	              'div',
