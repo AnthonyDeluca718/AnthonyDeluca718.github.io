@@ -37,10 +37,10 @@ class Projects extends React.Component {
             <div className="project-sentence">Kickstarter inspired Full Stack Application. Rails on the backend, React.js on the frontend. </div>
             <div className="project-sentence">A combination of database management and frontend controls prevents users from crashing the database</div>
             <div className="project-sentence">Many errors are caught on the frontend to save database queries.</div>
-            <div className="project-sentence"> <a href="https://adeluca-kickstarter.herokuapp.com/#/?_k=2k3ypc" className="text-link">Live</a> <a href="https://github.com/AnthonyDeluca718/Kickstarter" className="text-link">Github</a></div>
+            <div className="project-sentence"> <a href="http://clonedstarter.tech" className="text-link">Live</a> <a href="https://github.com/AnthonyDeluca718/Kickstarter" className="text-link">Github</a></div>
           </div>
           <div className="image project-image right">
-            <a href="https://adeluca-kickstarter.herokuapp.com/#/?_k=2k3ypc">
+            <a href="http://clonedstarter.tech">
               <img src="images/ClonedStarter.png" alt="" className="cloned-starter-pic" />
             </a>
           </div>
