@@ -26,7 +26,7 @@ class Home extends React.Component {
           </div>
 
           <div className="home-des home-des3">
-              MA in math from Penn State. Studied Web Development at App Academy
+              MA in Mathematics from Penn State. Studied Web Development at App Academy
           </div >
 
           <div className="home-des home-des4">
