@@ -36,16 +36,18 @@ class Skills extends React.Component {
             <li>Javascript   </li>
             <li>Ruby    </li>
             <li>Rails   </li>
-            <li>C++    </li>
+            <li>React   </li>
             <li>Matlab </li>
+            <li>C++    </li>
           </ul>
 
           <ul className="skills-sub-list">
-            <li>React   </li>
-            <li>Redux    </li>
             <li>HTML5    </li>
             <li>CSS</li>
             <li>JQuery</li>
+            <li>Node.js</li>
+            <li>Socket.io</li>
+            <li>Redux    </li>
           </ul>
 
           <ul className="skills-sub-list">
@@ -54,6 +56,7 @@ class Skills extends React.Component {
             <li>Game Theory</li>
             <li>PDEs </li>
             <li>Latex  </li>
+            <li>SQL</li>
           </ul>
 
         </div>
