@@ -27,11 +27,11 @@ class Home extends React.Component {
 
           <div className="home-des home-des3">
               MA in Mathematics from Penn State. Studied Web Development at App Academy
-          </div >
+          </div>
 
           <div className="home-des home-des4">
             I'm interested in web development, algorithms, mathematics and game design
-          </div >
+          </div>
 
           <div className="home-des home-des5">
             Check out my site or shoot me an email
