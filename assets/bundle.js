@@ -28206,12 +28206,12 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'home-des home-des3' },
-	            'I Studied Web Development at App Academy and Mathematics at Penn State'
+	            'MA in Mathematics from Penn State. Studied Web Development at App Academy'
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'home-des home-des4' },
-	            'I\'m interested in web development, algorithms, mathematics and game design.'
+	            'I\'m interested in web development, algorithms, mathematics and game design'
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -28357,27 +28357,22 @@
 	            _react2.default.createElement(
 	              'li',
 	              null,
-	              'C++    '
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'Matlab '
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'ul',
-	            { className: 'skills-sub-list' },
-	            _react2.default.createElement(
-	              'li',
-	              null,
 	              'React   '
 	            ),
 	            _react2.default.createElement(
 	              'li',
 	              null,
-	              'Redux    '
+	              'Matlab '
 	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'C++    '
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'ul',
+	            { className: 'skills-sub-list' },
 	            _react2.default.createElement(
 	              'li',
 	              null,
@@ -28392,6 +28387,21 @@
 	              'li',
 	              null,
 	              'JQuery'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Node.js'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Socket.io'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'Redux    '
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -28421,6 +28431,11 @@
 	              'li',
 	              null,
 	              'Latex  '
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'SQL'
 	            )
 	          )
 	        )
