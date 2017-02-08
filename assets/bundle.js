@@ -28132,7 +28132,7 @@
 	          _react2.default.createElement(
 	            'sub',
 	            null,
-	            'f'
+	            'p'
 	          ),
 	          ' min',
 	          _react2.default.createElement(
