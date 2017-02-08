@@ -28121,14 +28121,26 @@
 	        'footer',
 	        { className: 'footer-content group' },
 	        _react2.default.createElement(
-	          'text',
+	          'div',
 	          { className: 'footer-left' },
 	          'Design: Anthony Deluca \xA9 Anthony Deluca'
 	        ),
 	        _react2.default.createElement(
-	          'text',
+	          'div',
 	          { className: 'footer-right' },
-	          'nash(x)= max min \u222B\u0192(x,y)\u03C1(x) dx'
+	          'nash = max',
+	          _react2.default.createElement(
+	            'sub',
+	            null,
+	            'f'
+	          ),
+	          ' min',
+	          _react2.default.createElement(
+	            'sub',
+	            null,
+	            'y'
+	          ),
+	          ' \u222B\u0192(x,y)\u03C1(x) dx'
 	        ),
 	        _react2.default.createElement(
 	          'text',

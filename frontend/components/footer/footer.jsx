@@ -10,12 +10,12 @@ class Footer extends React.Component {
   render() {
     return(
       <footer className="footer-content group">
-        <text className="footer-left" >
+        <div className="footer-left" >
           Design: Anthony Deluca &copy; Anthony Deluca
-        </text>
-        <text className="footer-right" >
-          nash(x)= max min &#8747;&#402;(x,y)&#961;(x) dx
-        </text>
+        </div>
+        <div className="footer-right" >
+          nash = max<sub>f</sub> min<sub>y</sub> &#8747;&#402;(x,y)&#961;(x) dx
+        </div>
 
         <text className="footer-mid" >
           &#8710;u = &#402;
